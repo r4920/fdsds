@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="registerVerificationVM" type="com.tasktestingsapplication.app.modules.registerverification.data.viewmodel.RegisterVerificationVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearRegisterVerifi"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:id="@+id/linearGroup17"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginTop="@dimen/_57pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <ImageView android:id="@+id/imageGroup23"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_38pxh"
+                android:layout_marginEnd="@dimen/_28pxh"
+                android:layout_marginStart="@dimen/_28pxh"
+                android:layout_width="@dimen/_38pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_group23" tools:ignore="ContentDescription"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtRegister"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_35pxh"
+                android:layout_marginStart="@dimen/_35pxh"
+                android:layout_marginTop="@dimen/_21pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{registerVerificationVM.registerVerificationModel.txtRegister}"
+                style="@style/txtInterbold32" tools:text="@string/lbl_register"/>
+            <TextView android:gravity="start"
+                android:id="@+id/txtWeHaveSentAn"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_35pxh"
+                android:layout_marginStart="@dimen/_35pxh"
+                android:layout_marginTop="@dimen/_19pxv"
+                android:layout_width="match_parent"
+                android:text="@{registerVerificationVM.registerVerificationModel.txtWeHaveSentAn}"
+                style="@style/txtInterregular16" tools:text="@string/msg_we_have_sent_an"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtVerificationCo"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_35pxh"
+                android:layout_marginStart="@dimen/_35pxh"
+                android:layout_marginTop="@dimen/_40pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{registerVerificationVM.registerVerificationModel.txtVerificationCo}"
+                style="@style/txtInterregular16" tools:text="@string/msg_verification_co"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtEX123456"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_28pxh"
+                android:layout_marginStart="@dimen/_28pxh"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_16pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_16pxv"
+                android:text="@{registerVerificationVM.registerVerificationModel.txtEX123456}"
+                style="@style/txtRoundedOutline" tools:text="@string/lbl_ex_123456"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtRegister1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_28pxh"
+                android:layout_marginStart="@dimen/_28pxh"
+                android:layout_marginTop="@dimen/_28pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_16pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_16pxv"
+                android:text="@{registerVerificationVM.registerVerificationModel.txtRegister1}"
+                style="@style/txtSolidRounded" tools:text="@string/lbl_register"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">tasktesting_s_application2</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_email">Email</string>
+<string name="msg_we_have_sent_an">We have sent an email to your email account with a verification code!</string>
+<string name="lbl_dashboard">DASHBOARD</string>
+<string name="lbl_maxpense2">Maxpense!</string>
+<string name="msg_don_t_have_an_a">Don\u2019t have an account?</string>
+<string name="msg_let_s_get_start">Let\u2019s Get Started...</string>
+<string name="lbl_confirm">Confirm</string>
+<string name="msg_continue_with_e">Continue with Email</string>
+<string name="lbl_ex_123456">EX: 123456</string>
+<string name="msg_already_have_an">Already have an account?</string>
+<string name="lbl_login">Login</string>
+<string name="msg_recover_you_pas">Recover you password if you have forgot the password!</string>
+<string name="lbl_welcome_page">Welcome Page</string>
+<string name="msg_forgot_password2">Forgot Password/Verification</string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="msg_forgot_password3">Forgot Password/Enter Code</string>
+<string name="lbl_dashboard2">Dashboard</string>
+<string name="msg_continue_with_g">Continue with Google</string>
+<string name="msg_login_now_to_tr">Login now to track all your expenses and income at a place!</string>
+<string name="lbl_your_name">Your Name</string>
+<string name="lbl_your_password">Your Password</string>
+<string name="lbl_forgot_password">Forgot Password</string>
+<string name="msg_to_access_all_t"> to access all the features of </string>
+<string name="lbl_create_an">Create an </string>
+<string name="msg_check_your_app">"Check your app's UI from the below demo screens of your app."</string>
+<string name="lbl_maxpense">MaxPense</string>
+<string name="msg_a_place_where_y">A place where you can track all your expenses and incomes...</string>
+<string name="msg_ex_abc_example">Ex: abc@example.com</string>
+<string name="lbl_welcome_to">Welcome to</string>
+<string name="msg_verification_co">Verification Code</string>
+<string name="msg_forgot_password">Forgot Password?</string>
+<string name="msg_ex_saul_ramire">Ex. Saul Ramirez</string>
+<string name="msg_set_your_new_pa">Set your new password to login into your account!</string>
+<string name="msg_enter_new_passw">Enter New Password</string>
+<string name="msg_create_an_accou">Create an account to access all the features of Maxpense!</string>
+<string name="msg_register_verifi">Register/Verification</string>
+<string name="lbl_register">Register</string>
+<string name="lbl_submit">Submit</string>
+<string name="lbl_account">account</string>
+<string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+</resources>
