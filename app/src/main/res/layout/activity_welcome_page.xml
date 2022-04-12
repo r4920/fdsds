@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="welcomePageVM" type="com.tasktestingsapplication.app.modules.welcomepage.data.viewmodel.WelcomePageVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearWelcomePage"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <TextView android:ellipsize="end" android:id="@+id/txtWelcomeTo"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_35pxh"
+            android:layout_marginStart="@dimen/_35pxh"
+            android:layout_marginTop="@dimen/_255pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{welcomePageVM.welcomePageModel.txtWelcomeTo}"
+            style="@style/txtInterregular24" tools:text="@string/lbl_welcome_to"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtMaxPense"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_35pxh"
+            android:layout_marginStart="@dimen/_35pxh"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{welcomePageVM.welcomePageModel.txtMaxPense}"
+            style="@style/txtInterbold40" tools:text="@string/lbl_maxpense"/>
+        <TextView android:id="@+id/txtAPlaceWhereY"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_35pxh"
+            android:layout_marginStart="@dimen/_35pxh"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:layout_width="match_parent"
+            android:text="@{welcomePageVM.welcomePageModel.txtAPlaceWhereY}"
+            style="@style/txtInterregular16" tools:text="@string/msg_a_place_where_y"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtLetsGetStart"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_36pxh"
+            android:layout_marginStart="@dimen/_36pxh"
+            android:layout_marginTop="@dimen/_55pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{welcomePageVM.welcomePageModel.txtLetsGetStart}"
+            style="@style/txtInterregular17" tools:text="@string/msg_let_s_get_start"/>
+        <EditText
+            android:background="@drawable/rectangle_border_black_900_radius_16"
+            android:drawablePadding="@dimen/_10pxh"
+            android:drawableStart="@drawable/img_logo"
+            android:ellipsize="end"
+            android:hint="@string/msg_continue_with_g"
+            android:id="@+id/etContinueWithG" android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_35pxh"
+            android:layout_marginStart="@dimen/_35pxh"
+            android:layout_marginTop="@dimen/_18pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_20pxv"
+            android:paddingStart="@dimen/_72pxh"
+            android:paddingTop="@dimen/_20pxv" android:singleLine="true"
+            android:text="@={welcomePageVM.welcomePageModel.etContinueWithGValue}"
+            android:textColorHint="@color/gray_900"
+            style="@style/etRoundedOutline" tools:ignore="Autofill"/>
+        <EditText
+            android:background="@drawable/rectangle_border_black_900_radius_16"
+            android:drawablePadding="@dimen/_10pxh"
+            android:drawableStart="@drawable/img_vector"
+            android:ellipsize="end"
+            android:hint="@string/msg_continue_with_e"
+            android:id="@+id/etContinueWithE" android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_35pxh"
+            android:layout_marginStart="@dimen/_35pxh"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_22pxv"
+            android:paddingStart="@dimen/_80pxh"
+            android:paddingTop="@dimen/_22pxv" android:singleLine="true"
+            android:text="@={welcomePageVM.welcomePageModel.etContinueWithEValue}"
+            android:textColorHint="@color/gray_900"
+            style="@style/etRoundedOutline" tools:ignore="Autofill"/>
+        <LinearLayout android:gravity="center_vertical"
+            android:id="@+id/linearGroup1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_255pxv"
+            android:layout_marginEnd="@dimen/_35pxh"
+            android:layout_marginStart="@dimen/_35pxh"
+            android:layout_marginTop="@dimen/_24pxv"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtAlreadyHaveAn"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{welcomePageVM.welcomePageModel.txtAlreadyHaveAn}"
+                style="@style/txtInterregular16" tools:text="@string/msg_already_have_an"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtLogin"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_6pxh"
+                android:layout_weight="0.2" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{welcomePageVM.welcomePageModel.txtLogin}"
+                style="@style/txtInterbold16_1" tools:text="@string/lbl_login"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
